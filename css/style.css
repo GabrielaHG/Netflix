@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+head {
+    display: none;
+}
+header{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#logo{
+    width: 15vw;
+}
+header #logo img{
+    width: 100%;
+}
+ 
+header #ident{
+    width: 50vw;
+}
+header #ident h1{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 15px 0px 0px 0px;
+}
+header #menu{
+    width: 15vw;
+}
+header #menu img{
+    width: 100%;
+}
+nav{
+    position:absolute;
+    margin-top:9vh;
+    width:100vw;
+    background: rgba(0, 0, 0, 0.753);
+    width: 350px;
+    height: 26,5%;
+}
+nav ul li{
+    list-style: none;
+    padding: 3vh 0 1vh 1vw;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+}
+main{
+    min-height: 50vh;
+}
+#imagens{
+    width: 50vh;
+    justify-content: center;
+    margin: 5px 20px 5px 20px;
+}
+
+main h3{
+    text-align:justify;
+    margin: 5px 10px 2px 20px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+}
+main #net{
+    margin: 15px 10px 2px 20px;
+    text-align:justify;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+}
+main p{
+    text-align: justify;
+    margin: 5px 15px 5px 15px;
+    color:rgb(0, 0, 0);
+    line-height: 25px;
+    font-size: 16px;
+}
+main #series img{
+    width: 13vh;
+    justify-content: center;
+    margin: 5px 5px 5px 24px;
+}
+.texto{
+    position: relative;
+    width: 50vh;
+    display: inline-block;
+}
+.texto img{
+    width: 100%;
+}
+main #texto1{
+    font-size: 0px;
+}
+footer{
+    background: black;
+    padding: 5px 5px 5px 5px;
+}
+footer p{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+}
+footer a {
+    text-decoration: none;
+    color:white;
+}
+@media only screen and (min-width: 980px){
+    #logo{
+        width: 5vw;
+        align-self: center;
+    }
+    header #logo img{
+        width: 100%;
+    }
+     
+    header #ident{
+        width: 50vw;
+    }
+    header #ident h1{
+        font-size: 25px;
+        text-align:center;
+        color: rgb(255, 255, 255);
+        margin: 15px 0px 0px 0px;
+    }
+    header #menu{
+        width: 4vw;
+        align-self: center;
+    }
+    header #menu img{
+        width: 100%;
+    }
+    nav{
+        margin-top:10vh;
+    }
+    nav{
+        position:absolute;
+        margin-top:9vh;
+        width:100vw;
+        background: rgba(0, 0, 0, 0.753);
+        width: 350px;
+        height: 26,5%;
+        right: 0px;
+    }
+    main #texto1{
+        font-size: 18px;
+    }
+
+    #imagens{
+        width: 50%;
+        justify-content:center;
+        margin: 5px 20px 10px 320px;
+    }
+    main #series img{
+        width: 50vh;
+        justify-content: center;
+        margin: 10px 5px 15px 100px;
+    }
+    footer{
+        padding: 13px 13px 13px 13px;
+    }
+    footer p{
+        font-size: 20px;
+    }
+}

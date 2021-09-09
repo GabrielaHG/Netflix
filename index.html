@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="./imagens/icon.png"/></div>
+        <div id="ident"><h1>Central de Ajuda</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="menu"><img src="./imagens/menu.jpg"/></div>
+    </header>
+    <main>
+        <section>
+            <h3 id="net">O que é a Netflix?</h3>
+            <p>A Netflix é um serviço de streaming por assinatura que permite assistir a séries e filmes sem comerciais em um aparelho conectado à internet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed diam egestas, efficitur ante sit amet, fringilla augue. Aenean quis odio eleifend, vulputate erat vitae, suscipit quam. Cras sit amet massa feugiat, ornare nunc sit amet, molestie nisl. Integer suscipit hendrerit turpis, sed laoreet ipsum efficitur sit amet. </p></section>
+        <section>
+            <img id="imagens" src="./imagens/im1.png"/>
+        </section>
+        <section>
+            <p>Você também pode baixar seus títulos favoritos em aparelhos iOS, Android ou Windows 10 para assistir quando não tiver internet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed diam egestas, efficitur ante sit amet, fringilla augue. Aenean quis odio eleifend, vulputate erat vitae, suscipit quam.</p>
+        </section>
+            <h3>Aparelhos compatíveis</h3>
+            <img id="imagens" src="./imagens/im2.png">
+            <p>Assista em qualquer aparelho conectado à internet compatível com o aplicativo Netflix, como Smart TVs, videogames, aparelhos de streaming, decodificadores, smartphones e tablets. Você também pode assistir no computador pelo navegador. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed diam egestas, efficitur ante sit amet, fringilla augue. Aenean quis odio eleifend, vulputate erat vitae, suscipit quam. </p>
+            <h3>Séries e filmes</h3>
+            <img id="imagens" src="./imagens/im3.png">
+            <p>Você também pode baixar seus títulos favoritos em aparelhos iOS, Android ou Windows 10 para assistir quando não tiver internet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed diam egestas, efficitur ante sit amet, fringilla augue. Aenean quis odio eleifend, vulputate erat vitae, suscipit quam. Cras sit amet massa feugiat, ornare nunc sit amet, molestie nisl. Integer suscipit hendrerit turpis, sed laoreet ipsum efficitur sit amet.</p>
+            <h3>Títulos mais famosos</h3>
+        <section id="series">
+            <img src="./imagens/s1.jpg">
+            <img src="./imagens/f1.jpg">
+            <img src="./imagens/s2.jpg">
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://www.instagram.com/netflixbrasil/?hl=pt-br">Netflix</a></p>
+    </footer>
+</body>
+
+<script>
+    let nav= document.querySelector("nav");
+    let icon= document.querySelector("#menu");
+    
+    nav.style.display="none";
+ 
+    icon.onclick=function(){
+        if(nav.style.display=="none")
+            nav.style.display="block"
+        else
+            nav.style.display="none"    
+ 
+    }
+ 
+</script>
+
+</html>
